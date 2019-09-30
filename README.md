@@ -4,7 +4,7 @@ This is a example template for a CLI written in Typescript.
 
 ## Setup
 
-To setup `example-cli` you will need to:
+To setup `robot-on-mars` you will need to:
 
 1 - clone https://github.com/jonathan-fielding/typescript-cli-template.git
 
@@ -14,11 +14,15 @@ To setup `example-cli` you will need to:
 
 4 - run `npm link`
 
-## Using `example-cli`
+## Using `robot-on-mars`
 
-The simplest way to use `example-cli` is to run the CLI along with the file you want to run it against. e.g
+The simplest way to use `robot-on-mars` is to run the CLI along with the co-ordernates of the upper right corner e.g
 
-```example-cli```
+```robot-on-mars 5 3```
+
+You will then be asked to add a robot to the planet using the format `X Y DIRECTION ACTIONS` e.g `1 1 E RFRFRFRF`.
+
+You will keep being prompted to add subsquent robots to the planet, once you are done you an enter `EXIT`.
 
 ### Additional Options:
 
